@@ -6,7 +6,7 @@ var shirtValue = 1;
 
 //function changeShirt() {
 
-document.getElementById('shirtButton').addEventListener('click', nextShirt)
+document.getElementById('shirtButton').addEventListener('touchend', nextShirt)
 //    function () {console.log('it is working!') })
 //}
 //
@@ -36,7 +36,7 @@ function nextShirt() {
 //------------previous shirt
 
 //function previousShirt() {
-document.getElementById('previousShirtButton').addEventListener('click', previousShirtImage)
+document.getElementById('previousShirtButton').addEventListener('touchend', previousShirtImage)
 //
 //}
 //
@@ -67,7 +67,7 @@ var pantValue = 1;
 
 ////**this function will call and make the nextPants function run
 //function changePants() {
-document.getElementById('pantsButton').addEventListener('click', nextPants)
+document.getElementById('pantsButton').addEventListener('touchend', nextPants)
 //    function () {console.log('it is working!') })
 //}
 
@@ -100,7 +100,7 @@ function nextPants() {
 //------------previous pants
 
 //function previousPants() {
-document.getElementById('previousPantsButton').addEventListener('click', previousPantsImage)
+document.getElementById('previousPantsButton').addEventListener('touchend', previousPantsImage)
 
 //}
 //
@@ -125,7 +125,7 @@ function previousPantsImage() {
 
 var hatValue = 1;
 
-document.getElementById('hatButton').addEventListener('click', nextHat)
+document.getElementById('hatButton').addEventListener('touchend', nextHat)
 
 
 function nextHat() {
@@ -141,7 +141,7 @@ function nextHat() {
     console.log('the hat function is working');
 }
 
-document.getElementById('previousHatButton').addEventListener('click', previousHatImage)
+document.getElementById('previousHatButton').addEventListener('touchend', previousHatImage)
 
 function previousHatImage() {
 
@@ -162,7 +162,7 @@ function previousHatImage() {
 
 var shoeValue = 1;
 
-document.getElementById('shoeButton').addEventListener('click', nextShoes)
+document.getElementById('shoeButton').addEventListener('touchend', nextShoes)
 
 
 function nextShoes() {
@@ -178,7 +178,7 @@ function nextShoes() {
     console.log('the shoe function is working');
 }
 
-document.getElementById('previousShoeButton').addEventListener('click', previousShoeImage)
+document.getElementById('previousShoeButton').addEventListener('touchend', previousShoeImage)
 
 function previousShoeImage() {
 
